@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E5931C91E3B8345006A958A /* MemedImageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5931C81E3B8345006A958A /* MemedImageTableViewController.swift */; };
+		6E5931CB1E3B8360006A958A /* MemedImageCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E5931CA1E3B8360006A958A /* MemedImageCollectionViewController.swift */; };
 		6EDDCDE01E36003B00509A26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDDCDDF1E36003B00509A26 /* AppDelegate.swift */; };
 		6EDDCDE21E36003B00509A26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6EDDCDE11E36003B00509A26 /* ViewController.swift */; };
 		6EDDCDE51E36003B00509A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6EDDCDE31E36003B00509A26 /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E5931C81E3B8345006A958A /* MemedImageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemedImageTableViewController.swift; sourceTree = "<group>"; };
+		6E5931CA1E3B8360006A958A /* MemedImageCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemedImageCollectionViewController.swift; sourceTree = "<group>"; };
 		6EDDCDDC1E36003B00509A26 /* MemeMe_YongJin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MemeMe_YongJin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EDDCDDF1E36003B00509A26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6EDDCDE11E36003B00509A26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				6EDDCDE61E36003B00509A26 /* Assets.xcassets */,
 				6EDDCDE81E36003B00509A26 /* LaunchScreen.storyboard */,
 				6EDDCDEB1E36003B00509A26 /* Info.plist */,
+				6E5931C81E3B8345006A958A /* MemedImageTableViewController.swift */,
+				6E5931CA1E3B8360006A958A /* MemedImageCollectionViewController.swift */,
 			);
 			path = MemeMe_YongJin;
 			sourceTree = "<group>";
@@ -96,6 +102,7 @@
 				TargetAttributes = {
 					6EDDCDDB1E36003B00509A26 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 2WG9KC7JJN;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -136,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E5931C91E3B8345006A958A /* MemedImageTableViewController.swift in Sources */,
+				6E5931CB1E3B8360006A958A /* MemedImageCollectionViewController.swift in Sources */,
 				6EDDCDE21E36003B00509A26 /* ViewController.swift in Sources */,
 				6EDDCDE01E36003B00509A26 /* AppDelegate.swift in Sources */,
 			);
@@ -260,6 +269,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2WG9KC7JJN;
 				INFOPLIST_FILE = MemeMe_YongJin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DalnaraCrater.MemeMe-YongJin";
@@ -272,6 +283,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2WG9KC7JJN;
 				INFOPLIST_FILE = MemeMe_YongJin/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "DalnaraCrater.MemeMe-YongJin";
@@ -299,6 +312,7 @@
 				6EDDCDF01E36003B00509A26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
